@@ -1,0 +1,21 @@
+# Each person's own settings and filled-in plans stay on their machine
+emergency.config.json
+*.local.md
+my-*.md
+
+# Big downloads never go in the repo
+*.zim
+*.mp4
+*.dmg
+*.exe
+*.zip
+*.tgz
+*.tar.gz
+models/
+library/
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+my-*/

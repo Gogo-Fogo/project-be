@@ -1,0 +1,9 @@
+{
+  "data_dir": "D:\\Emergency",
+  "ollama_models": "",
+  "model": "qwen3.5:4b",
+  "low_battery_model": "qwen3.5:2b-q4_K_M",
+  "library_tier": "medium",
+  "emergency_number": "911",
+  "gpu_overhead_gb": 2
+}
