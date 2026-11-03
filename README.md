@@ -1,8 +1,13 @@
 # Project Be: offline emergency kit
 
-A private kit for family and friends: everything a household needs to stay safe, informed and
-in touch if the power, internet or phone network goes down for up to two weeks.
-**Not for commercial use. Please don't share it outside the people it was shared with.**
+A kit made for family and friends: everything a household needs to stay safe, informed and in
+touch if the power, internet or phone network goes down for up to two weeks. Free for personal,
+non-commercial use (see [License](#license)).
+
+> **Not medical advice.** The cards, videos and AI answers are general first-aid information
+> from public sources, collected by non-professionals. They don't replace emergency services,
+> a doctor, or a real first-aid/CPR class. **Call your local emergency number first if you can.**
+> The local AI can be wrong. Use everything here at your own risk.
 
 ## What you get
 
@@ -24,8 +29,8 @@ setup and, optionally, the Kiwix app.
 
 ## How to use it: let your AI agent set it up
 
-You'll need a GitHub account with access to this private repo (ask the person who shared it).
-Open your AI coding agent (Claude Code, Codex, Copilot, Cursor, Gemini CLI...) and say:
+No account needed. Open your AI coding agent (Claude Code, Codex, Copilot, Cursor, Gemini
+CLI...) and say:
 
 > Clone `https://github.com/Gogo-Fogo/project-be` into a permanent folder and follow AGENTS.md
 > to set up the emergency kit for me.
@@ -72,9 +77,24 @@ official sources on each machine.
 ## Your private details
 
 Files named `my-*.md` and `emergency.config.json` are git-ignored: your filled-in comms plan,
-addresses and settings stay on your computer. Don't commit them.
+addresses and settings stay on your computer. **This repo is public: never commit them, and
+never open an issue or pull request that contains them.**
 
 ## Contributing fixes
 
-Found a broken download link (Kiwix and game releases get renamed) or a better tip? Tell the
-person who shared this, or open a pull request if you have write access.
+Found a broken download link (Kiwix and game releases get renamed) or a better tip? Open an issue
+or a pull request.
+
+## License
+
+This repo's own scripts, cards and guides are licensed under
+[CC BY-NC 4.0](LICENSE) (Creative Commons Attribution-NonCommercial): free to use, share and
+adapt for non-commercial purposes, with credit. **No commercial use.**
+
+The things the kit downloads keep their own licenses:
+- Wikipedia and the other Kiwix books: CC BY-SA.
+- Ollama and the AI models: per model.
+- The games: GPL and similar.
+- The videos: they belong to their publishers and are downloaded for personal offline viewing.
+
+None of these are redistributed here.

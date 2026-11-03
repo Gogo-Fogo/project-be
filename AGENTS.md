@@ -39,7 +39,8 @@ may not be technical: explain in plain words, one step at a time.
      Don't loosen them.
    - Tell the person the AI can be wrong, and that they should take a real first-aid class.
 7. **Their details stay local.** Put their filled-in plans, addresses and numbers in files named
-   `my-*.md` or in `emergency.config.json`. Both are git-ignored. Never commit or push them.
+   `my-*.md` or in `emergency.config.json`. Both are git-ignored. **This repo is public:** never commit or push them, and never
+   put personal details in an issue or pull request.
 8. **Verify, don't assume.**
    - Checksums for the library.
    - A real no-internet test at the end.
@@ -202,4 +203,4 @@ installing apps on phones, signing up for alerts).
   - Check for newer library editions on download.kiwix.org.
   - Refresh stored water.
 - If a download link 404s, the project published a newer version: look it up on the official
-  page, update the script, and tell the repo owner so everyone gets the fix.
+  page, update the script, and open an issue or pull request on the repo so everyone gets the fix.
